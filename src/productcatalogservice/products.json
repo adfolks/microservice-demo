@@ -1,0 +1,110 @@
+{
+    "products": [
+        {
+            "id": "OLJCESPC7Z",
+            "name": "Apple",
+            "description": "Apples are a sweet fleshy fruit that grow around the world.",
+            "picture": "/static/img/fruits/apple.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 67,
+                "nanos": 990000000
+            },
+            "categories": ["health"]
+        },
+        {
+            "id": "66VCHSJNUP",
+            "name": "Avocado",
+            "description": "Avocados are an interesting fruit because they are very low in carbohydrate yet high in healthy fats",
+            "picture": "/static/img/fruits/avocado.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 12,
+                "nanos": 490000000
+            },
+            "categories": ["minerals", "health"]
+        },
+        {
+            "id": "1YMWWN1N4O",
+            "name": "Banana",
+            "description": "The banana is a tropical fruit with a long body covered in a yellow skin.",
+            "picture": "/static/img/fruits/banana.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 124
+            },
+            "categories": ["tropical"]
+        },
+        {
+            "id": "L9ECAV7KIM",
+            "name": "Blackberry",
+            "description": "Blackberries are one of the tastiest fruits around.",
+            "picture": "/static/img/fruits/blackberry.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 36,
+                "nanos": 450000000
+            },
+            "categories": ["taste"]
+        },
+        {
+            "id": "2ZYFJ3GM2N",
+            "name": "Cherry",
+            "description": "Cherries are one of the most popular fruit varieties, and they are technically a drupe – a fruit with a hard stone inside.",
+            "picture": "/static/img/fruits/Cherry.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 2245
+            },
+            "categories": ["taste", "mineral"]
+        },
+        {
+            "id": "0PUK6V6EV0",
+            "name": "Blueberries",
+            "description": "Lauded for their purported health benefits, blueberries are a fruit that just about everyone considers healthy.",
+            "picture": "/static/img/fruits/blueberries.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 65,
+                "nanos": 500000000
+            },
+            "categories": ["taste"]
+        },
+        {
+            "id": "LS4PSXUNUM",
+            "name": "Cranberry",
+            "description": "Cranberries are a small edible berry with a bright red color.",
+            "picture": "/static/img/fruits/Cranberry.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 24,
+                "nanos": 330000000
+            },
+            "categories": ["health"]
+        },
+        {
+            "id": "9SIQT8TOJO",
+            "name": "Durian",
+            "description": "Known for its peculiar scent, the durian is a giant-sized tropical fruit that’s native to South-East Asia.",
+            "picture": "/static/img/fruits/durian.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 789,
+                "nanos": 500000000
+            },
+            "categories": ["taste"]
+        },
+        {
+            "id": "6E92ZMYYFZ",
+            "name": "Grapes",
+            "description": "Grapes are one of the most prevalent types of fruit, and we can find them almost everywhere.",
+            "picture": "/static/img/fruits/grapes.jpg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 12,
+                "nanos": 300000000
+            },
+            "categories": ["tropical"]
+        }
+    ]
+}
