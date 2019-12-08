@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: recommendationservice
+        image: adfolksdemo.azurecr.io/recommendationservice
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -53,6 +53,8 @@ spec:
           limits:
             cpu: 200m
             memory: 450Mi
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service
