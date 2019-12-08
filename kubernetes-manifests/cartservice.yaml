@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: cartservice
+        image: adfolksdemo.azurecr.io/cartservice
         ports:
         - containerPort: 7070
         env:
@@ -54,6 +54,8 @@ spec:
           periodSeconds: 10
           exec:
             command: ["/bin/grpc_health_probe", "-addr=:7070", "-rpc-timeout=5s"]
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service

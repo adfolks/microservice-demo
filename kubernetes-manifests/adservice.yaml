@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: adservice
+        image: adfolksdemo.azurecr.io/adservice
         ports:
         - containerPort: 9555
         env:
@@ -53,6 +53,8 @@ spec:
           periodSeconds: 15
           exec:
             command: ["/bin/grpc_health_probe", "-addr=:9555"]
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service
