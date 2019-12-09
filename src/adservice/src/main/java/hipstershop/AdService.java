@@ -172,22 +172,22 @@ public final class AdService {
     Ad camera =
         Ad.newBuilder()
             .setRedirectUrl("/product/2ZYFJ3GM2N")
-            .setText("Film camera for sale. 50% off.")
+            .setText("Fresh Fruits for sale. 50% off.")
             .build();
     Ad lens =
         Ad.newBuilder()
             .setRedirectUrl("/product/66VCHSJNUP")
-            .setText("Vintage camera lens for sale. 20% off.")
+            .setText("Fresh Avocado. 20% off.")
             .build();
     Ad recordPlayer =
         Ad.newBuilder()
             .setRedirectUrl("/product/0PUK6V6EV0")
-            .setText("Vintage record player for sale. 30% off.")
+            .setText("Biggest Sale of year on Blueberries. 30% off.")
             .build();
     Ad bike =
         Ad.newBuilder()
             .setRedirectUrl("/product/9SIQT8TOJO")
-            .setText("City Bike for sale. 10% off.")
+            .setText("Best Deals on Durian. 10% off.")
             .build();
     Ad baristaKit =
         Ad.newBuilder()
@@ -197,12 +197,7 @@ public final class AdService {
     Ad airPlant =
         Ad.newBuilder()
             .setRedirectUrl("/product/6E92ZMYYFZ")
-            .setText("Air plants for sale. Buy two, get third one for free")
-            .build();
-    Ad terrarium =
-        Ad.newBuilder()
-            .setRedirectUrl("/product/L9ECAV7KIM")
-            .setText("Terrarium for sale. Buy one, get second one for free")
+            .setText("Fresh Grapes. Buy 2 KG and get 1 KG free")
             .build();
     return ImmutableListMultimap.<String, Ad>builder()
         .putAll("photography", camera, lens)
