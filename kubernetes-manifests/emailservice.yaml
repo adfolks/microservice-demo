@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: emailservice
+        image: adfolksdemo.azurecr.io/emailservice
         ports:
         - containerPort: 8080
         env:
@@ -52,6 +52,8 @@ spec:
           limits:
             cpu: 200m
             memory: 128Mi
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service

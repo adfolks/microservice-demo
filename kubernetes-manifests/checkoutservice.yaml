@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: checkoutservice
+          image: adfolksdemo.azurecr.io/checkoutservice
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -60,6 +60,8 @@ spec:
             limits:
               cpu: 200m
               memory: 128Mi
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service

@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: shippingservice
+        image: adfolksdemo.azurecr.io/shippingservice
         ports:
         - containerPort: 50051
         env:
@@ -50,6 +50,8 @@ spec:
           limits:
             cpu: 200m
             memory: 128Mi
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service
