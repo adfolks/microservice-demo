@@ -204,7 +204,7 @@ public final class AdService {
         .putAll("vintage", camera, lens, recordPlayer)
         .put("cycling", bike)
         .put("cookware", baristaKit)
-        .putAll("gardening", airPlant)
+        .put("gardening", airPlant)
         .build();
   }
 
