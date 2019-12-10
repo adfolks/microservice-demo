@@ -2,9 +2,9 @@
     "products": [
         {
             "id": "OLJCESPC7Z",
-            "name": "Apple",
-            "description": "Apples are a sweet fleshy fruit that grow around the world.",
-            "picture": "/static/img/fruits/apple.jpg",
+            "name": "Cherimoya",
+            "description": "Cherimoya is a fruit native to the highlands of South America that Mark Twain once called \"deliciousness itself.\" ",
+            "picture": "/static/img/fruits/cherimoya.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 67,
@@ -26,9 +26,9 @@
         },
         {
             "id": "1YMWWN1N4O",
-            "name": "Banana",
-            "description": "The banana is a tropical fruit with a long body covered in a yellow skin.",
-            "picture": "/static/img/fruits/banana.jpg",
+            "name": "Rambutan",
+            "description": "This Ping-Pong-ball-size red fruit is indigenous to Malaysia, and has also been cultivated throughout Thailand, South Vietnam, Indonesia, the Philippines, India and Sri Lanka.",
+            "picture": "/static/img/fruits/Rambutan.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 124
@@ -37,9 +37,9 @@
         },
         {
             "id": "L9ECAV7KIM",
-            "name": "Blackberry",
-            "description": "Blackberries are one of the tastiest fruits around.",
-            "picture": "/static/img/fruits/blackberry.jpg",
+            "name": "African Cucumber",
+            "description": "\nAlso known as the horned melon, jelly melon, kiwano or hedged gourd, the African cucumber is a vibrant fruit, featuring a mosaic of green and yellow colors on the inside and bright orange on the outside.",
+            "picture": "/static/img/fruits/AfricanCucumber.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 36,
@@ -49,9 +49,9 @@
         },
         {
             "id": "2ZYFJ3GM2N",
-            "name": "Cherry",
-            "description": "Cherries are one of the most popular fruit varieties, and they are technically a drupe – a fruit with a hard stone inside.",
-            "picture": "/static/img/fruits/Cherry.jpg",
+            "name": "Ackee",
+            "description": "Native to West Africa, the ackee is now mostly produced and consumed in the Caribbean, particularly in Haiti and Jamaica, where it is the national fruit. Measuring up to 4 inches in diameter, this bulbous fruit grows on the evergreen ackee tree. ",
+            "picture": "/static/img/fruits/Ackee.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 2245
@@ -60,9 +60,9 @@
         },
         {
             "id": "0PUK6V6EV0",
-            "name": "Blueberries",
-            "description": "Lauded for their purported health benefits, blueberries are a fruit that just about everyone considers healthy.",
-            "picture": "/static/img/fruits/blueberries.jpg",
+            "name": "Buddha's Hand",
+            "description": "Also known as bushukan or fingered citron, this citrus fruit—whose skin somewhat resembles that of a lemon—is native to southwestern China and northeastern India, and looks like a giant-fingered hand or yellow squid.",
+            "picture": "/static/img/fruits/BuddhasHand.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 65,
@@ -72,9 +72,9 @@
         },
         {
             "id": "LS4PSXUNUM",
-            "name": "Cranberry",
-            "description": "Cranberries are a small edible berry with a bright red color.",
-            "picture": "/static/img/fruits/Cranberry.jpg",
+            "name": "Monstera Deliciosa",
+            "description": "Native to Mexico and Central America, this shiny plant is largely grown for ornamental purposes, but its fruit, which is shaped like an ear of corn and is the only nonpoisonous part of the plant, is popular in the tropics.",
+            "picture": "/static/img/fruits/Monstera.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 24,
@@ -96,9 +96,9 @@
         },
         {
             "id": "6E92ZMYYFZ",
-            "name": "Grapes",
-            "description": "Grapes are one of the most prevalent types of fruit, and we can find them almost everywhere.",
-            "picture": "/static/img/fruits/grapes.jpg",
+            "name": "Chayote",
+            "description": "Native to Mexico, this fleshy, pear-shaped plant is also known as vegetable pear, chocho, mirliton and christophene, and belongs to the same family as melons, cucumber and squash. Originally from Central America (it's believed to be native to Guatemala specifically), the light green fruit is now cultivated throughout Mexico and in certain parts of America..",
+            "picture": "/static/img/fruits/Chayote.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 12,
