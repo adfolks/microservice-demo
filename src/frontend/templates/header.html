@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fruits Shop</title>
+    <title>Fruits Brew</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body>
@@ -14,7 +14,7 @@
         <div class="navbar navbar-dark bg-primary box-shadow">
             <div class="container d-flex justify-content-between">
                 <a href="/" class="navbar-brand d-flex align-items-center">
-                    Fruits Shop
+                    FruitsBrew
                 </a>
                 {{ if $.currencies }}
                 <form class="form-inline ml-auto" method="POST" action="/setCurrency" id="currency_form">
@@ -25,6 +25,7 @@
                     {{end}}
                     </select>
                     <a class="btn btn-primary btn-light ml-2" href="/cart" role="button">View Cart ({{$.cart_size}})</a>
+                    <a class="btn btn-success btn-success ml-2" href="/login" role="button">My Account</a>
                 </form>
                 {{ end }}
             </div>
